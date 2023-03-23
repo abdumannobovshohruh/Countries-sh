@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: url(img/count.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.count{
+    padding-top: 20px;
+    width: 250px;
+    border-radius: 20px;
+    height: 400px;
+    margin: auto;
+    text-align: center;
+    max-width: 1120px;
+    background-color: aquamarine;
+}
+.flex{
+    margin-top: 150px;
+}
+.inp{
+border: none;
+outline: none;
+height: 30px;
+text-align: center;
+font-size: 17px; 
+border-radius: 10px;   
+}
+.davlat{
+    margin-top: 10px;   
+    padding: 10px;
+    background-color: cadetblue;
+}
+
+@media (max-width: 575px) {
+    .flex {
+        margin-top: 42px;
+        margin-bottom: 200px;
+    }
+}
